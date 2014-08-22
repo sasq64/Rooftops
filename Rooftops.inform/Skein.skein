@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x15d1710" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x7efff01cfa70"/>
+  <item nodeId="node-0x15d1710">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+It is another hot summer day, roughly two weeks since the (virtual) end of human kind. You have made your way onto the roof of the building where you work, on lower Manhattan.
+
+More recently, you climbed up on to the ledge of the building, your feet now dangling over the edge, two hundred and twenty feet above ground.
+
+You are trying to work up the courage to jump.
+
+Rooftops
+An Interactive Fiction by Jonas Minnberg
+Release 1 / Serial number 140821 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD
+
+On the ledge
+You are sitting on a ledge a couple of hundred feet above the Manhattan streets.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x15d1890"/>
+      <child nodeId="node-0x1ca1c10"/>
+      <child nodeId="node-0x1d11880"/>
+      <child nodeId="node-0x1d574a0"/>
+      <child nodeId="node-0x10f4c10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x15d1890">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">On the ledge
+You are sitting on a ledge a couple of hundred feet above the Manhattan streets.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x15d1a10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x15d1a10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x15d1b90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x15d1b90">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x15d1d10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x15d1d10">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x15d1e90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x15d1e90">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca1190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca1190">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca1310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca1310">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca1490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca1490">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca1610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca1610">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You inch forward slightly, feeling the pull of the abyss below you but... you are not quite ready yet.
+
+Loud moaning as wells as metallic thumbs can be heard from behind the metal door leading down to the stair well.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca1790"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca1790">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Even if plunging hundreds of feet to your death is not appealing, what lies that way is even worse.
+
+The thumbs are getting louder. The door is visibly starting to give. It is not long now.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca1910"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca1910">
+    <command xml:space="preserve">back</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca1a90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca1a90">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">On the ledge
+You are sitting on a ledge a couple of hundred feet above the Manhattan streets.
+
+Your contemplating is suddenly interrupted by the sharp sounds of small arms fire. From behind the door. More gun fire, the muffled sounds of screams. Then quiet...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1ca1c10">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You inch forward slightly, feeling the pull of the abyss below you but... you are not quite ready yet.
+
+Loud moaning as wells as metallic thumbs can be heard from behind the metal door leading down to the stair well.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca1d90"/>
+      <child nodeId="node-0x1ce8340"/>
+      <child nodeId="node-0x1ce8940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca1d90">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Even if plunging hundreds of feet to your death is not appealing, what lies that way is even worse.
+
+Loud moaning as wells as metallic thumbs can be heard from behind the metal door leading down to the stair well.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ca1f10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ca1f10">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+The thumbs are getting louder. The door is visibly starting to give. It is not long now.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ce81c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ce81c0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+Your contemplating is suddenly interrupted by the sharp sounds of small arms fire. From behind the door. More gun fire, the muffled sounds of screams. Then quiet...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1ce8340">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Even if plunging hundreds of feet to your death is not appealing, what lies that way is even worse.
+
+Wait for it...
+
+Loud moaning as wells as metallic thumbs can be heard from behind the metal door leading down to the stair well.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ce84c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ce84c0">
+    <command xml:space="preserve">k</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ce8640"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ce8640">
+    <command xml:space="preserve">sas</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ce87c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ce87c0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">On the ledge
+You are sitting on a ledge a couple of hundred feet above the Manhattan streets.
+
+The thumbs are getting louder. The door is visibly starting to give. It is not long now.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1ce8940">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You inch forward slightly, feeling the pull of the abyss below you but... you are not quite ready yet.
+
+The thumbs are getting louder. The door is visibly starting to give. It is not long now.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ce8ac0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ce8ac0">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You think you are finally ready... you close your eyes and inch your way slowly over the edge...
+
+Your contemplating is suddenly interrupted by the sharp sounds of small arms fire. From behind the door. More gun fire, the muffled sounds of screams. Then quiet...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ce8c40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ce8c40">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+A rooftop, somewhere on Manhattan
+You can see Door to stairwell and Edward here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ce8dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ce8dc0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&quot;Hey, are you going to open this door or what?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1ce8f40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1ce8f40">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+On the ledge
+You are sitting on a ledge a couple of hundred feet above the Manhattan streets.
+
+&quot;Hey, are you going to open this door or what?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d11100"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d11100">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+A rooftop, somewhere on Manhattan
+You can see Door to stairwell and Edward here.
+
+&quot;Hey, are you going to open this door or what?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d11280"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d11280">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+On the ledge
+You are sitting on a ledge a couple of hundred feet above the Manhattan streets.
+
+&quot;Hey, are you going to open this door or what?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d11400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d11400">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+A rooftop, somewhere on Manhattan
+You can see Door to stairwell and Edward here.
+
+&quot;Hey, are you going to open this door or what?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d11580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d11580">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">(first opening Door to stairwell)
+
+Top of stairwell
+You can see Door to stairwell here.
+
+&quot;Hey, are you going to open this door or what?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d11700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d11700">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">
+A rooftop, somewhere on Manhattan
+You can see Door to stairwell and Edward here.
+
+&quot;Hey, are you going to open this door or what?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1d11880">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+Loud moaning as wells as metallic thumbs can be heard from behind the metal door leading down to the stair well.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d11a00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d11a00">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+The thumbs are getting louder. The door is visibly starting to give. It is not long now.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d11b80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d11b80">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+Your contemplating is suddenly interrupted by the sharp sounds of small arms fire. From behind the door. More gun fire, the muffled sounds of screams. Then quiet...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d11d00"/>
+      <child nodeId="node-0x1d2f320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d11d00">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d11e80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d11e80">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&quot;Hey, are you going to open this door or what?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d2f1a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d2f1a0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&quot;Hey, are you going to open this door or what?&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1d2f320">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+A rooftop, somewhere on Manhattan
+You can see Stairwell door and a chair here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d2f4a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d2f4a0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">A rooftop, somewhere on Manhattan
+You can see Stairwell door and a chair here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d2f620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d2f620">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t do that while it&apos;s blocked by the chair
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d2f7a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d2f7a0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d2f920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d2f920">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t do that while it&apos;s blocked by the chair
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d2faa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d2faa0">
+    <command xml:space="preserve">push chair</command>
+    <result xml:space="preserve">You move the chair out of the way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d2fc20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d2fc20">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open Stairwell door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d2fda0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d2fda0">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">
+Top of stairwell
+You can see Stairwell door and Edward here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d2ff20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d2ff20">
+    <command xml:space="preserve">x chair</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d571a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d571a0">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">
+A rooftop, somewhere on Manhattan
+You can see Stairwell door and a chair here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d57320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d57320">
+    <command xml:space="preserve">x chair</command>
+    <result xml:space="preserve">An old office chair.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1d574a0">
+    <command xml:space="preserve">x street</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d57620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d57620">
+    <command xml:space="preserve">x streets</command>
+    <result xml:space="preserve">Far below you you can see wrecked cars, dead drivers and and pedestrians. And yes, for being dead some of them are awfully... mobile.
+
+Loud moaning as wells as metallic thumps can be heard from behind the metal door leading down to the stair well.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d577a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d577a0">
+    <command xml:space="preserve">x ledge</command>
+    <result xml:space="preserve">You see nothing special about the ledge.
+
+The thumps are getting louder. The door is visibly starting to give. It is not long now.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d57920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d57920">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You think you are finally ready... you close your eyes and inch your way slowly over the edge...
+
+Your contemplating is suddenly interrupted by the sharp sounds of small arms fire. From behind the door. More gun fire, the muffled sounds of screams. Then quiet...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d57aa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d57aa0">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">For the moment at least, you have no direct urge to end things.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d57c20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d57c20">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+A rooftop, somewhere on Manhattan
+An ordinary rooftop, surrounding a small Roof exit structure with an entrance to the stairwell.
+
+You have wedged and old office chair is under the door handle, in a somewhat futile attempt to keep the ... creatures out.
+
+You can also see a stairwell door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d57da0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d57da0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t do that while it&apos;s blocked by the office chair.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d57f20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d57f20">
+    <command xml:space="preserve">x chair</command>
+    <result xml:space="preserve">An old office chair.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d72100"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d72100">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">A rooftop, somewhere on Manhattan
+An ordinary rooftop, surrounding a small Roof exit structure with an entrance to the stairwell.
+
+You have wedged and old office chair is under the door handle, in a somewhat futile attempt to keep the ... creatures out.
+
+You can also see a stairwell door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d72280"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d72280">
+    <command xml:space="preserve">move chair</command>
+    <result xml:space="preserve">You move the office chair out of the way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d72400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d72400">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">A rooftop, somewhere on Manhattan
+An ordinary rooftop, surrounding a small Roof exit structure with an entrance to the stairwell.
+
+You can see a stairwell door and an office chair here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d72580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d72580">
+    <command xml:space="preserve">look down</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d72700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d72700">
+    <command xml:space="preserve">x down</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d72880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d72880">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">(first opening the stairwell door)
+
+Top of stairwell
+You can see a stairwell door and Edward here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d72a00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d72a00">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d72b80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d72b80">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">
+A rooftop, somewhere on Manhattan
+An ordinary rooftop, surrounding a small Roof exit structure with an entrance to the stairwell.
+
+You can see a stairwell door and an office chair here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d72d00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d72d00">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+On the ledge
+You are sitting on a ledge a couple of hundred feet above the Manhattan streets.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d72e80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d72e80">
+    <command xml:space="preserve">x streets</command>
+    <result xml:space="preserve">Far below you you can see wrecked cars, dead drivers and and pedestrians. And yes, for being dead some of them are awfully... mobile.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d9b140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d9b140">
+    <command xml:space="preserve">x drivers</command>
+    <result xml:space="preserve">You see nothing special about dead drivers and.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1d9b2c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1d9b2c0">
+    <command xml:space="preserve">x pedestrians</command>
+    <result xml:space="preserve">Yes, even though you still have a hard time believing it ... the dead are walking.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec1930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec1930">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+A rooftop, somewhere on Manhattan
+An ordinary rooftop, surrounding a small Roof exit structure with an entrance to the stairwell.
+
+You can see a stairwell door and an office chair here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec17b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec17b0">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">
+Top of stairwell
+You can see a stairwell door and Edward here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2ec1630"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2ec1630">
+    <command xml:space="preserve">x edward</command>
+    <result xml:space="preserve">You see nothing special about Edward.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x10f4610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x10f4610">
+    <command xml:space="preserve">x rope</command>
+    <result xml:space="preserve">You see nothing special about the rope.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x10f4790"/>
+    </children>
+  </item>
+  <item nodeId="node-0x10f4790">
+    <command xml:space="preserve">x ads</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x10f4910"/>
+    </children>
+  </item>
+  <item nodeId="node-0x10f4910">
+    <command xml:space="preserve">edward, give rope</command>
+    <result xml:space="preserve">(to Edward)
+Edward has better things to do.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x10f4c10">
+    <command xml:space="preserve">x rooftop</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x420b930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x420b930">
+    <command xml:space="preserve">x structure</command>
+    <result xml:space="preserve">A small brick structure with a gray, metal door on one side, leading inside to the stairwell of the building.
+
+Loud moaning as wells as metallic thumps can be heard from behind the metal door leading down to the stair well.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x420bab0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x420bab0">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x420bc30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x420bc30">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+The thumps are getting louder. The door is visibly starting to give. It is not long now.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x420bdb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x420bdb0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+Your contemplating is suddenly interrupted by the sharp sounds of small arms fire. From behind the door. More gun fire, the muffled sounds of screams. Then quiet...
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x420bf30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x420bf30">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Outside stairwell
+An ordinary rooftop, surrounding a small Roof exit structure with an entrance to the stairwell.
+
+You have wedged and old office chair is under the door handle, in a somewhat futile attempt to keep the ... creatures out.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7efff01cf170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7efff01cf170">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+On the ledge
+You are sitting on a ledge a couple of hundred feet above the Manhattan streets.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7efff01cf2f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7efff01cf2f0">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Outside stairwell
+An ordinary rooftop, surrounding a small Roof exit structure with an entrance to the stairwell.
+
+You have wedged and old office chair is under the door handle, in a somewhat futile attempt to keep the ... creatures out.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7efff01cf470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7efff01cf470">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see nothing special about the stairwell door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7efff01cf5f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7efff01cf5f0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t do that while it&apos;s blocked by the office chair.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7efff01cf770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7efff01cf770">
+    <command xml:space="preserve">move chair</command>
+    <result xml:space="preserve">You move the office chair out of the way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7efff01cf8f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7efff01cf8f0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the stairwell door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7efff01cfa70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7efff01cfa70">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">
+Top of stairwell
+You can see Edward here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
