@@ -13,11 +13,12 @@ The player is suicidal.
 The block giving rule is not listed in the check giving it to rules.
 
 understand the command "throw" as something new.
-understand "throw [something] towards [a direction]" as directional throwing.
-understand "throw [something] towards [something]" as locational throwing.
+understand "throw [something] towards [a direction]" as tossing it at.
+understand "throw [something] towards [something]" as tossing it at.
 
-directional throwing is an action applying to two things.
-locational throwing is an action applying to two things.
+tossing it at is an action applying to one thing and one visible thing.
+
+A thing can be useful. A thing is normally not useful. [Player can ask Alan for any useful thing and he will get it] 
 
 Section - Ropes
 
@@ -247,7 +248,7 @@ After going somewhere when the player has something (called the link) which is s
 Report going somewhere when the player is stuck to something draggable:
 	say "You drag along behind you [the list of draggable things which are stuck to the player].";
 	now every draggable thing which is stuck to the player is in the location.
-
+	
 Section - Blocking
 
 Blocking relates one thing to one door.
@@ -262,23 +263,27 @@ Instead of pushing or pulling something (called the blocker) that blocks a door:
 
 Book - The World
 
-Section - Edward arrives
+Section - Alan arrives
 	
-Edward arrives is a scene.
-Edward arrives begins when play begins.
-Edward arrives ends when time since Edward arrives began is 3 minutes.
+Alan arrives is a scene.
+Alan arrives begins when play begins.
+Alan arrives ends when Alan is in outside stairwell.
 
-Every turn during Edward arrives:
-	let countdown be time since Edward arrives began;
+Every turn during Alan arrives:
+	let countdown be time since Alan arrives began;
 	if countdown is 0 minutes:
-		say "Loud moaning as wells as metallic thumps can be heard from behind the metal door leading down to the stair well.";
+		say "Loud moaning as wells as metallic thumps can be heard from behind the metal door leading down to the stairwell.";
 	if countdown is 1 minute:
 		say "The thumps are getting louder. The door is visibly starting to give. It is not long now.";
 	if countdown is 2 minutes:
-		say "Your contemplating is suddenly interrupted by the sharp sounds of small arms fire. From behind the door. More gun fire, the muffled sounds of screams. Then quiet...";
+		say "Your contemplating is suddenly interrupted by the sharp sounds of small arms fire smattering from behind the door. A short break, then more gun fire and screaming and wailing. Then everything becomes quiet...";
 		now player is not suicidal;
-	if countdown is greater than 3 minutes:
-		say "Suddenly you hear the muffled sound of a voice from behind the door saying: 'Hey, are you going to let me out there or what?'"
+	if countdown is  3 minutes and stairwell door is blocked by something:
+		say "Suddenly you hear the muffled sound of a voice from behind the door saying: 'Hey, are you going to let me out there or what?'";
+	if stairwell door is closed and stairwell door is not blocked  by something and Alan is in top of stairwell:
+		try Alan opening the stairwell door;
+		try Alan going outside;
+		say "'Hello man'!"
 
 
 Office rooftop top is a region.
@@ -299,7 +304,7 @@ Instead of examining down when location is the edge, try examining streets.
 
 Instead of going down when location is the edge and player is suicidal: say "Even if plunging hundreds of feet to your death is not appealing, what lies that way is even worse."
 
-Instead of jumping when time since Edward arrives began is 2 minutes:
+Instead of jumping when time since Alan arrives began is 2 minutes:
 say "You think you are finally ready... you close your eyes and inch your way slowly over the edge..."
 
 Instead of jumping when location is the edge: say "[if player is suicidal]You inch forward slightly, feeling the pull of the abyss below you but... you are not quite ready yet[else]For the moment at least, you have no direct urge to end things[end if]."
@@ -308,44 +313,45 @@ Section - Outside Stairwell
 
 Outside stairwell is a room. It is down from the edge.
 
-Outside stairwell has description "An ordinary rooftop, surrounding a small [structure] with an entrance to the stairwell."
+Outside stairwell has description "An ordinary rooftop, surrounding a small [structure] with an entrance to the [stairwell]. The street where this building lies runs east-west, and in those directions there is a long drop to the lower neighboring buildings. To the north is the even longer drop down to the main street. To the south lies a smaller street, and across it you can see the rooftop of what you think is the [Lexington Mall]."
+
+Lexington Mall is scenery in Outside stairwell. "It is maybe 50 feet across the street, and about 10 feet below you. Still, too far to jump."
+
 
 Roof exit structure is a backdrop in office rooftop. It has description "A small brick structure with a gray, metal door on one side, leading inside to the stairwell of the building."
 
-The stairwell door is a door. It is inside from outside stairwell and outside from top of stairwell. It is closed and scenery. It has description "A metal door leading to the stairwell."
+The stairwell door is a door. It is inside from Outside stairwell and outside from Top of stairwell. It is closed and scenery. It has description "A metal door leading to the stairwell."
 
 The door handle is part of the stairwell door. It has description "Looks solid enough.". It is unevenly shaped. 
 
-instead of tying something to the stairwell door, try tying noun to the door handle.
+Instead of tying something to the stairwell door, try tying noun to the door handle.
 
-In outside stairwell is an office chair. It has description "An old office chair."
+In Outside stairwell is an office chair. It has description "An old office chair."
 The office chair is unevenly shaped.
 The office chair blocks the stairwell door. It has initial appearance "You have wedged and old office chair is under the door handle, in a somewhat futile attempt to keep the ... creatures out."
 
 Section - Top of Stairwell
 
-Top of stairwell is a room.
+Top of stairwell is a room. "This is the top of the stairs from which you yourself came a few hours ago. Then it was completely empty but now..."
 
-Section - Edward
+An object called the rotten bodies are fixed in place in top of stairwell. They have initial appearance  "Several horribly disfigured and partially decomposed bodies are lying here.". They have description "I think one of them is moving... you should probably get out of here."
 
-Edward is a man in top of stairwell. 
+Instead of going down in top of stairwell, say "Stepping over those creatures down into the darkness? I don't think so."
 
-Edward has description "He looks like a business type [unicode 8212] or rather looked. What once appears to have been an expensive suit now is torn and covered with blood and soot. His narrow face is pale, dirty and unshaven, but given the circumstances he looks reasonably sane. The gun you heard is held in what looks like a home made holster constructed from duct tape and some sort of plastic container.[if rope is held by edward]He has a rope slung over his shoulder[end if]."
+Lexington Mall rooftop is a room.
 
-A thing can be useful. A thing is normally not useful.
+Instead of tossing the office chair at an object when the office chair is free, say "What would that accomplish?"
 
-Edward carries a gun and a useful rope. He wears a torn suit, an Armani tie. 
+[Instead of tossing the office chair at a direction when the office chair is free, say "What would that accomplish?"]
 
-[Persuasion rule for asking Edward to try dropping the rope:
-	say "'...what do you have in mind?'";
-	persuasion succeeds.
-]
+Section - Alan
 
-Instead of asking edward to try giving something useful to the player:
-	say "'...what do you have in mind?'";
-	try edward giving the noun to the player;
+Alan is a man in top of stairwell. 
 
-[
-instead of directional throwing something towards something when location is outside stairwell:
-	say "Yeaa haa".
-]
+Alan has description "He looks like a business type [unicode 8212] or rather looked. What once appears to have been an expensive suit is now torn and covered with grime and soot. His narrow face is pale, dirty and unshaven, but given the circumstances he looks reasonably sane. The gun you heard is held in what looks like a home made holster constructed from duct tape and some sort of plastic container. [if rope is held by Alan]He also has a rope slung over his shoulder[end if]."
+
+Alan carries a gun and a useful rope. He wears a torn suit, an Armani tie. 
+
+Instead of asking Alan to try giving something useful to the player:
+	say "'OK... what do you have in mind?'";
+	try Alan giving the noun to the player;
