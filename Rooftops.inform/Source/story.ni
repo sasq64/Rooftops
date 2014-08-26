@@ -272,7 +272,7 @@ Alan arrives ends when Alan is in outside stairwell.
 Every turn during Alan arrives:
 	let countdown be time since Alan arrives began;
 	if countdown is 0 minutes:
-		say "Loud moaning as wells as metallic thumps can be heard from behind the metal door leading down to the stairwell.";
+		say "Loud moaning as wells as metallic thumps can be heard from below you, behind the metal door leading down to the stairwell.";
 	if countdown is 1 minute:
 		say "The thumps are getting louder. The door is visibly starting to give. It is not long now.";
 	if countdown is 2 minutes:
@@ -283,8 +283,17 @@ Every turn during Alan arrives:
 	if stairwell door is closed and stairwell door is not blocked  by something and Alan is in top of stairwell:
 		try Alan opening the stairwell door;
 		try Alan going outside;
-		say "'Hello man'!"
+		say "The man just looks at you for a few seconds, then takes two quick steps forward, raises his arms and picks you of the ground in a bear hug - he's definitely stronger than he looks.[paragraph break]'Jesus fucking Christ, I really thought I was the only one alive there for a while...'";
+		Alan presents himself in one turn from now;
 
+
+At the time when Alan presents himself:
+	if Alan is in location :
+		say "'Name's Alan by the way'";
+		now the printed name of Alan is "Alan";
+		now Alan is proper-named;
+	otherwise:
+		Alan presents himself in one turn from now;
 
 Office rooftop top is a region.
 
@@ -299,6 +308,8 @@ The ledge, wrecked cars, dead drivers and is scenery in the edge.
 pedestrians are scenery in the edge. They have description "Yes, even though you still have a hard time believing it ... the dead are walking."
 
 The Manhattan streets is scenery in the edge. It has description "Far below you you can see [wrecked cars], [dead drivers] and [pedestrians]. And yes, for being dead some of them are awfully... mobile."
+
+The Metal door is scenery in the edge.
 
 Instead of examining down when location is the edge, try examining streets.
 
@@ -317,7 +328,6 @@ Outside stairwell has description "An ordinary rooftop, surrounding a small [str
 
 Lexington Mall is scenery in Outside stairwell. "It is maybe 50 feet across the street, and about 10 feet below you. Still, too far to jump."
 
-
 Roof exit structure is a backdrop in office rooftop. It has description "A small brick structure with a gray, metal door on one side, leading inside to the stairwell of the building."
 
 The stairwell door is a door. It is inside from Outside stairwell and outside from Top of stairwell. It is closed and scenery. It has description "A metal door leading to the stairwell."
@@ -327,8 +337,36 @@ The door handle is part of the stairwell door. It has description "Looks solid e
 Instead of tying something to the stairwell door, try tying noun to the door handle.
 
 In Outside stairwell is an office chair. It has description "An old office chair."
-The office chair is unevenly shaped.
-The office chair blocks the stairwell door. It has initial appearance "You have wedged and old office chair is under the door handle, in a somewhat futile attempt to keep the ... creatures out."
+The office chair is unevenly shaped and pushable between rooms.
+The office chair blocks the stairwell door. It has initial appearance "You have wedged and old office chair under the door handle, in a somewhat futile attempt to keep the ... creatures out."
+
+Instead of tossing the office chair at an object when the office chair is free, say "What would that accomplish?"
+
+
+Instead of tossing the office chair at Lexington Mall when chair is stuck to door handle:
+	say "You and Alan take hold on either side of the office chair and start swinging it.
+	 'One... Two... Three!'
+	You use all your power, and you watch the chair sail through the air with rope trailing after it like a serpentine... and land a good 4-5 feet inside the roof of the shopping mall.";
+	now the office chair is in Lexington Mall rooftop.
+
+Instead of taking the office chair, say "While you certainly are strong enough, it's kind of pointless carrying the chair around -- especially since it has wheels."
+
+Instead of pulling rope when office chair is stuck to door handle:
+	if office chair is in Lexington Mall rooftop:
+		say "You pull the rope, dragging the chair towards the edge of the other rooftop, until it falls into a depression of some kind and get stuck. You pull the rope harder, but it doesn't seem to give.[paragraph break]Maybe this crazy idea will work after all.[paragraph break]";
+		now the office chair is fixed in place;
+		say "'Age before wisdom!' Alan says and starts to take his tie off. 'Don't look at me like that - it's a $300 Armani tie. It's been through worse'[paragraph break] With those words, he hooks the tie around the rope and jumps off the edge of the building.";
+		now Alan is in Lexington Mall rooftop;
+	otherwise:
+		say "The chair seems securely anchored to the door now."
+
+instead of going south when office chair is stuck to door handle and office chair is in Lexington Mall rooftop:
+	if office chair is fixed in place:
+		say "You have no tie, but you prefer to take things a bit slower anyway. Luckily, you are not particularly afraid of heights.[paragraph break]You grap hold of the rope, hook your legs around it and climb quickly over to the other side without looking down...";
+		now the player is in Lexington Mall rooftop;
+	otherwise:
+		say "You don't dare climb over with the chair just laying like that on the other roof."
+
 
 Section - Top of Stairwell
 
@@ -338,20 +376,23 @@ An object called the rotten bodies are fixed in place in top of stairwell. They 
 
 Instead of going down in top of stairwell, say "Stepping over those creatures down into the darkness? I don't think so."
 
-Lexington Mall rooftop is a room.
-
-Instead of tossing the office chair at an object when the office chair is free, say "What would that accomplish?"
-
 [Instead of tossing the office chair at a direction when the office chair is free, say "What would that accomplish?"]
+
+Lexington Mall rooftop is a room.
 
 Section - Alan
 
-Alan is a man in top of stairwell. 
+Alan is a man in top of stairwell.
+
+The printed name of Alan is "man".
+Alan is not proper-named.
+Understand "man" as Alan;
 
 Alan has description "He looks like a business type [unicode 8212] or rather looked. What once appears to have been an expensive suit is now torn and covered with grime and soot. His narrow face is pale, dirty and unshaven, but given the circumstances he looks reasonably sane. The gun you heard is held in what looks like a home made holster constructed from duct tape and some sort of plastic container. [if rope is held by Alan]He also has a rope slung over his shoulder[end if]."
 
-Alan carries a gun and a useful rope. He wears a torn suit, an Armani tie. 
+Alan carries a gun and a useful rope. He wears a torn suit and an Armani tie. 
 
 Instead of asking Alan to try giving something useful to the player:
 	say "'OK... what do you have in mind?'";
 	try Alan giving the noun to the player;
+	
